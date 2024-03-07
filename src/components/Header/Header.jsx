@@ -1,5 +1,7 @@
 import Logo from "../../assets/Logo/Logo";
-import LichtIcon from "../../assets/lichtIcon/lichtIcon";
+import LichtIcon from "../../assets/LichtIcon/LichtIcon";
+import SunIcon from "../../assets/SunIcon/SunIcon";
+
 import "./Header.css";
 import { NavLink, Link } from "react-router-dom";
 import { darkmodeContext } from "../../Context/Context";
@@ -30,6 +32,8 @@ const Header = () => {
         </div>
         <div onClick={dark}>
           <LichtIcon />
+
+          {darkmode ? <LichtIcon /> : <SunIcon />}
         </div>
       </nav>
     </header>

@@ -1,5 +1,5 @@
-import "./sunIcon.css";
-const sunIcon = () => {
+import "./SunIcon.css";
+const SunIcon = () => {
   return (
     <svg
       width="24"
@@ -14,56 +14,56 @@ const sunIcon = () => {
           cy="12"
           r="4"
           stroke="white"
-          stroke-width="2"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinejoin="round"
         />
         <path
           d="M20 12H21"
           stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
+          strokeWidth="2"
+          strokeLinecap="round"
         />
         <path
           d="M3 12H4"
           stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
+          strokeWidth="2"
+          strokeLinecap="round"
         />
         <path
           d="M12 20L12 21"
           stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
+          strokeWidth="2"
+          strokeLinecap="round"
         />
         <path
           d="M12 3L12 4"
           stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
+          strokeWidth="2"
+          strokeLinecap="round"
         />
         <path
           d="M17.6569 17.6567L18.364 18.3638"
           stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
+          strokeWidth="2"
+          strokeLinecap="round"
         />
         <path
           d="M5.63605 5.63599L6.34315 6.34309"
           stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
+          strokeWidth="2"
+          strokeLinecap="round"
         />
         <path
           d="M6.34314 17.6567L5.63603 18.3638"
           stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
+          strokeWidth="2"
+          strokeLinecap="round"
         />
         <path
           d="M18.364 5.63599L17.6568 6.34309"
           stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
+          strokeWidth="2"
+          strokeLinecap="round"
         />
       </g>
       <defs>
@@ -75,4 +75,4 @@ const sunIcon = () => {
   );
 };
 
-export default sunIcon;
+export default SunIcon;

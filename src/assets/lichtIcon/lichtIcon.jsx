@@ -1,4 +1,4 @@
-import "./lichtIcon.css";
+import "./LichtIcon.css";
 const LichtIcon = () => {
   return (
     <svg
