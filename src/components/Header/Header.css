@@ -1,0 +1,19 @@
+.head nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+}
+.head a {
+  text-decoration: none;
+  padding: 2vw;
+
+  color: black;
+}
+.logoo a {
+  margin-top: 9vw;
+
+  padding-top: 3vw;
+}
