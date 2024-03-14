@@ -4,6 +4,7 @@
   align-items: center;
   gap: 2vw;
   margin-bottom: 10vw;
+  padding-top: 5vw;
 }
 .lorum a {
   text-decoration: none;
@@ -20,6 +21,15 @@
 }
 .lorum div {
   position: relative;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.lorum span {
+  color: #bdbdbd;
+  font-weight: 300;
+  font-size: 64px;
 }
 
 .about {

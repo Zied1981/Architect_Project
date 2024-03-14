@@ -3,17 +3,20 @@
   justify-content: space-around;
   align-items: center;
   gap: 3vw;
-  margin-top: 2vw;
-  margin-bottom: 3vw;
+  padding: 3vw;
 }
+.head div {
+  display: flex;
+  gap: 2vw;
+}
+
 .head a {
   text-decoration: none;
-  padding: 2vw;
+  padding: 3px;
 
   color: black;
 }
-.logoo a {
-  margin-top: 9vw;
 
-  padding-top: 3vw;
+.logoo {
+  margin-bottom: -15px;
 }

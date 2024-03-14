@@ -5,7 +5,7 @@ const Home = () => {
     <article>
       <section className="lorum">
         <h1>
-          Project
+          <span>Project</span>
           <br />
           Lorum
         </h1>
