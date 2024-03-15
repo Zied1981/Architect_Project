@@ -11,6 +11,7 @@ const Loadingscreen = () => {
 
   return (
     <section>
+      <img src="../../../public/loadicon.png" alt="" />
       <h1>Loading...</h1>
     </section>
   );
